@@ -1,6 +1,8 @@
 import React from "react"
 import Navbar from "./components/Navbar"
 import Banner from "./components/Banner"
+import Footer from "./components/Footer"
+import Freebanner from "./components/Freebanner"
 
 
 function App() {
@@ -8,6 +10,8 @@ function App() {
     <>
     <Navbar/>
     <Banner/>
+    <Freebanner/>
+    <Footer/>
     </>
   )
 }
